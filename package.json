@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.5",
+    "@strapi/plugin-documentation": "^5.12.5",
+    "@strapi/plugin-seo": "^2.0.8",
     "@strapi/plugin-users-permissions": "5.12.5",
     "@strapi/strapi": "5.12.5",
     "fs-extra": "^10.0.0",
@@ -25,6 +27,10 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-csv-import-export": "^0.0.6",
+    "strapi-plugin-meilisearch": "^0.13.2",
+    "strapi-plugin-webp-converter": "^1.0.4",
+    "strapi-v5-plugin-populate-deep": "^4.0.5",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
