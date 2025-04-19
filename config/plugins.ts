@@ -1,10 +1,5 @@
 export default () => ({
-    "strapi-csv-import-export": {
-        config: {
-            authorizedExports: ["api::article.article"],
-            authorizedImports: ["api::article.article"]
-        }
-    },
+
     'documentation': {
         enabled: process.env.NODE_ENV === 'development'
     },
